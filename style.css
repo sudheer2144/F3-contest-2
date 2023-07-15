@@ -1,15 +1,59 @@
+* {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+}
+
 body {
     background-color: #111315;
 }
 
+.main {
+    display: flex;
+}
+
 .left {
     border: 2px solid red;
-    width: 25%;
-    height: 100vh;
+    width: 20%;
+    text-align: center;
 }
 
 .right {
     border: 2px solid blue;
-    width: 75%;
-    
+    width: 80%;
+}
+
+.holdingImage {
+    width: 18.625rem;
+    height: 18.625rem;
+    flex-shrink: 0;
+    border: 2px solid red;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+.res-name {
+    font-size: 1.8rem;
+}
+
+.slogan {
+    font-size: 1.25rem;
+    color: #FF2424;
+}
+
+.bottom-margin {
+    margin-bottom: 1.5rem;
+}
+
+.qlinks {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.list {
+    text-align: left;
+    font-size: 1.25rem;
 }
