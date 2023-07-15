@@ -1,0 +1,15 @@
+body {
+    background-color: #111315;
+}
+
+.left {
+    border: 2px solid red;
+    width: 25%;
+    height: 100vh;
+}
+
+.right {
+    border: 2px solid blue;
+    width: 75%;
+    
+}
